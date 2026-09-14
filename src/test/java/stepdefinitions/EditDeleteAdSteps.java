@@ -75,11 +75,7 @@ public class EditDeleteAdSteps {
         context.setAdPrice(price);
         context.setAdCity(formParams.get("city"));
 
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
+
     }
 
     // ============================================================
